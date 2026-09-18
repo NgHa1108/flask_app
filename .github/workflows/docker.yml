@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: 10.246.127.193:5000
-  IMAGE_NAME: cicd-lab
+  IMAGE_NAME: flask-lab
 
 jobs:
   build:
