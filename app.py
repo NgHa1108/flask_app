@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return jsonify({
-        "message": "Flask CI/CD Lab",
+        "message": "Apply success Flask CI/CD Lab",
         "status": "ok",
         "time": datetime.datetime.now().isoformat()
     })
